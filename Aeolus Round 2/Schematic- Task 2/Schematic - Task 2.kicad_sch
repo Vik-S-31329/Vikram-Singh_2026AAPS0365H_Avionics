@@ -1,0 +1,4573 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "10992c10-6587-435c-91f9-d908c4d700ba")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Drone-Components:ArduCam_IMX209"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "ARDC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ArduCam_IMX209_0_1"
+				(rectangle
+					(start -3.81 5.08)
+					(end 3.81 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ArduCam_IMX209_1_1"
+				(text_box "ArduCam\nIMX 219\n"
+					(at -6.35 5.08 0)
+					(size 12.7 -3.81)
+					(margins 1.016 1.016 1.016 1.016)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+						(justify top)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -8.89 270)
+					(length 2.54)
+					(name "USB-Connect"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "COMM-1"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Drone-Components:CAN_HAT"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CAN_HAT"
+				(at -0.635 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CAN_HAT_0_1"
+				(rectangle
+					(start 9.525 -3.81)
+					(end -10.795 26.67)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CAN_HAT_1_1"
+				(text_box "MCP2512 HAT\n"
+					(at -8.255 1.905 0)
+					(size 17.145 -10.16)
+					(margins 1.016 1.016 1.016 1.016)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify top)
+					)
+				)
+				(pin power_out line
+					(at -10.795 13.97 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "OUT-3"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.795 11.43 180)
+					(length 2.54)
+					(name "CAN-L"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "OU-3"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.795 8.89 180)
+					(length 2.54)
+					(name "CAN-H"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "OUT-1"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 9.525 19.05 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "IN-7"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 9.525 16.51 0)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "IN-6"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 9.525 13.97 0)
+					(length 2.54)
+					(name "MISO"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "IN-5"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 9.525 11.43 0)
+					(length 2.54)
+					(name "MOSI"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "IN-4"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 9.525 8.89 0)
+					(length 2.54)
+					(name "INT"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "IN-3"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin passive clock
+					(at 9.525 6.35 0)
+					(length 2.54)
+					(name "SCLK"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "IN-2"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 9.525 3.81 0)
+					(length 2.54)
+					(name "VCC-3.3V"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "IN-1"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Drone-Components:PixHawk_6c_Mini"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "DCTRL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PixHawk_6c_Mini_1_1"
+				(rectangle
+					(start -12.7 27.94)
+					(end 12.7 -12.7)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "PixHawk\n6c MIni"
+					(at 0 15.24 0)
+					(effects
+						(font
+							(size 2.54 2.54)
+						)
+					)
+				)
+				(text_box "CAN1\n"
+					(at -30.48 3.81 0)
+					(size 12.7 -2.54)
+					(margins 1.016 1.016 1.016 1.016)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 0 0 0 0)
+					)
+					(effects
+						(font
+							(size 2.54 2.54)
+						)
+						(justify left top)
+					)
+				)
+				(text_box "Power1"
+					(at -7.62 -20.32 0)
+					(size 12.7 -2.54)
+					(margins 1.016 1.016 1.016 1.016)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 0 0 0 0)
+					)
+					(effects
+						(font
+							(size 2.54 2.54)
+						)
+						(justify left top)
+					)
+				)
+				(text_box "Telem2\n\n"
+					(at -1.27 35.56 90)
+					(size 2.54 12.7)
+					(margins 1.016 1.016 1.016 1.016)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 0 0 0 0)
+					)
+					(effects
+						(font
+							(size 2.54 2.54)
+						)
+						(justify left top)
+					)
+				)
+				(text_box "Telem1\n"
+					(at 20.32 5.08 0)
+					(size 12.7 -2.54)
+					(margins 1.016 1.016 1.016 1.016)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 0 0 0 0)
+					)
+					(effects
+						(font
+							(size 2.54 2.54)
+						)
+						(justify left top)
+					)
+				)
+				(pin power_in line
+					(at -12.7 5.08 180)
+					(length 2.54)
+					(name "VCC-5V"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "C1-1"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 2.54 180)
+					(length 2.54)
+					(name "CAN1_H-3.3V"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "C1-2"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 0 180)
+					(length 2.54)
+					(name "CAN1_L-3.3V"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "C1-3"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "C1-4"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -6.35 27.94 90)
+					(length 2.54)
+					(name "VCC-5V"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "T2-1"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -6.35 -12.7 270)
+					(length 2.54)
+					(name "VDD5V_BRICK1"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "POW-1"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -3.81 27.94 90)
+					(length 2.54)
+					(name "UART5_TX"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "T2-2"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -3.81 -12.7 270)
+					(length 2.54)
+					(name "VDD5V_BRICK1"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "POW-2"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 27.94 90)
+					(length 2.54)
+					(name "UART5-RX"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "T2-3"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.27 -12.7 270)
+					(length 2.54)
+					(name "CURRENT1-3.3V"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "POW-3"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin passive input_low
+					(at 1.27 27.94 90)
+					(length 2.54)
+					(name "UART5_CTS"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "T2-4"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 -12.7 270)
+					(length 2.54)
+					(name "VOLTAGE1-3.3V"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "POW-4"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin passive output_low
+					(at 3.81 27.94 90)
+					(length 2.54)
+					(name "UART5_RTS"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "T2-5"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 3.81 -12.7 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "POW-5"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 6.35 27.94 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "T2-6"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 6.35 -12.7 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "POW-6"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 10.16 0)
+					(length 2.54)
+					(name "VCC-5V"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "T1-1"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 7.62 0)
+					(length 2.54)
+					(name "UART7_TX"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "T1-2"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 5.08 0)
+					(length 2.54)
+					(name "UART7-RX"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "T1-3"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin passive input_low
+					(at 12.7 2.54 0)
+					(length 2.54)
+					(name "UART7_CTS"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "T1-4"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin passive output_low
+					(at 12.7 0 0)
+					(length 2.54)
+					(name "UART7_RTS"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "T1-4"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "T1-7"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Drone-Components:RF_Receiver"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RF-RX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RF_Receiver_0_1"
+				(rectangle
+					(start -5.08 6.35)
+					(end 5.08 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RF_Receiver_1_1"
+				(text_box "RadioMaster\nRP4TD"
+					(at -3.81 5.08 0)
+					(size 7.62 -10.16)
+					(margins 1.016 1.016 1.016 1.016)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+						(justify top)
+					)
+				)
+				(pin input line
+					(at -3.81 -8.89 270)
+					(length 2.54)
+					(name "RX"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "RF-1"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 -8.89 270)
+					(length 2.54)
+					(name "TX"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "RF-2"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 -8.89 270)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "RX-3"
+						(effects
+							(font
+								(size 0.2794 0.2794)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 3.81 -8.89 270)
+					(length 2.54)
+					(name "GND_/_(-)"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "RX-4"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Drone-Components:Telemetry_Module"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TELEM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Telemetry_Module_1_1"
+				(rectangle
+					(start -12.7 12.7)
+					(end 12.7 -12.7)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "HolyBro \nMicroHard \nV2 P400"
+					(at 0.508 7.366 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "Power Port"
+					(at 23.622 6.604 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text_box ""
+					(at -6.35 -13.97 0)
+					(size 0 0)
+					(margins 1.016 1.016 1.016 1.016)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 0 0 0 0)
+					)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left top)
+					)
+				)
+				(pin power_in line
+					(at -6.35 -12.7 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "COMM-1"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -3.81 -12.7 270)
+					(length 2.54)
+					(name "RX-3.3V"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "COMM-2"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 -12.7 270)
+					(length 2.54)
+					(name "TX-3.3V"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "COMM-3"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin passive input_low
+					(at 1.27 -12.7 270)
+					(length 2.54)
+					(name "CTS-3.3V"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "COMM-5"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin passive output_low
+					(at 3.81 -12.7 270)
+					(length 2.54)
+					(name "RTS"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "COMM-5"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 6.35 -12.7 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "POW-6"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 10.16 0)
+					(length 2.54)
+					(name "BATT+"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "POW-1"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 7.62 0)
+					(length 2.54)
+					(name "BATT+"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "POW-2"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "POW-3"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "POW-4"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Drone-Components:USB_Hub_(IMX418)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "UHB-ARDC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB_Hub_(IMX418)_0_1"
+				(rectangle
+					(start -12.7 3.81)
+					(end 6.35 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_Hub_(IMX418)_1_1"
+				(text "USB Hub\n\n(1 to 2)"
+					(at -7.112 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 0 180)
+					(length 2.54)
+					(name "USB_IN"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "UIN-1"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -3.81 270)
+					(length 2.54)
+					(name "Pin"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "P"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 2.54 0)
+					(length 2.54)
+					(name "USB_OUT1"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "UOUT-1"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 -2.54 0)
+					(length 2.54)
+					(name "USB_OUT2"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "UOUT-2"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Drone-Components:USB_Hub_(d500)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "UHB-d5H"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB_Hub_(d500)_0_1"
+				(rectangle
+					(start -12.7 7.62)
+					(end 6.35 -7.62)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_Hub_(d500)_1_1"
+				(text "USB Hub\n(1 to 6)"
+					(at -7.62 4.572 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 0 180)
+					(length 2.54)
+					(name "USB_IN"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "UIN-1"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -3.81 -7.62 270)
+					(length 2.54)
+					(name "Pin"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "P"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 6.35 0)
+					(length 2.54)
+					(name "USB_OUT1"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "UOUT-1"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 3.81 0)
+					(length 2.54)
+					(name "USB_OUT2"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "UOUT-2"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 1.27 0)
+					(length 2.54)
+					(name "USB_OUT3"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "UOUT-3"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 -1.27 0)
+					(length 2.54)
+					(name "USB_OUT4"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "UOUT-4"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 -3.81 0)
+					(length 2.54)
+					(name "USB_OUT5"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "UOUT-5"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 -6.35 0)
+					(length 2.54)
+					(name "USB_OUT6"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "UOUT-6"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Drone-Components:VTX"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "VTX"
+				(at 0 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VTX_0_1"
+				(rectangle
+					(start -4.445 13.97)
+					(end 4.445 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VTX_1_1"
+				(text_box "HDZero\nRace V3"
+					(at -5.08 13.97 0)
+					(size 10.16 -3.81)
+					(margins 1.016 1.016 1.016 1.016)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+					(effects
+						(font
+							(size 1.143 1.143)
+						)
+						(justify top)
+					)
+				)
+				(pin bidirectional line
+					(at 0 0 270)
+					(length 2.54)
+					(name "CS-CAM"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "OUT-4p"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Drone-Components:Video_Unit"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "VTX_VPU"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Video_Unit_0_1"
+				(rectangle
+					(start -10.16 23.495)
+					(end 10.16 -15.24)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Video_Unit_1_1"
+				(text_box "Raspberry\nPi 5 (8GB\nRAM)"
+					(at -8.89 22.86 0)
+					(size 17.145 -10.16)
+					(margins 1.016 1.016 1.016 1.016)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify top)
+					)
+				)
+				(pin output line
+					(at -10.16 7.62 180)
+					(length 2.54)
+					(name "VCC-3.3V"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "VPU-1G"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin passive clock
+					(at -10.16 5.08 180)
+					(length 2.54)
+					(name "GPIO-23(SCLK)"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "VPU-23G"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 180)
+					(length 2.54)
+					(name "GPIO_32(INT)"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "VPU-32G"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 180)
+					(length 2.54)
+					(name "GPIO_19(MOSI)"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "VPU-19G"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -10.16 -2.54 180)
+					(length 2.54)
+					(name "GPIO_21(MISO)"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "VPU-21G"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 180)
+					(length 2.54)
+					(name "GPIO_24(CS)"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "VPU-24G"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -7.62 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "VPU-GND"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -3.81 -15.24 270)
+					(length 2.54)
+					(name "USB_C-Pin"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "VPU-UP"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 -15.24 270)
+					(length 2.54)
+					(name "CSI-CAM"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "CAM-1"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 11.43 0)
+					(length 2.54)
+					(name "VOUT-5V"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "VPU-2G"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 6.35 0)
+					(length 2.54)
+					(name "USB_2(3.0)"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "VPU_2U"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -5.08 0)
+					(length 2.54)
+					(name "USB_1(3.0)"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "VPU_1U"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Drone-Components:d500"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "d5h"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "d500_0_1"
+				(rectangle
+					(start -2.54 5.08)
+					(end 2.54 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "d500_1_1"
+				(text_box "d500\nLiDAR\n"
+					(at -3.81 5.08 0)
+					(size 7.62 -3.81)
+					(margins 1.016 1.016 1.016 1.016)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+						(justify top)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -8.89 270)
+					(length 2.54)
+					(name "USB-Connect"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "COMM-1"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "d500_1"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "d5h"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "d500_1_0_1"
+				(rectangle
+					(start -2.54 5.08)
+					(end 2.54 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "d500_1_1_1"
+				(text_box "d500\nLiDAR\n"
+					(at -3.81 5.08 0)
+					(size 7.62 -3.81)
+					(margins 1.016 1.016 1.016 1.016)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+						(justify top)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -8.89 270)
+					(length 2.54)
+					(name "USB-Connect"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+					(number "COMM-1"
+						(effects
+							(font
+								(size 0.3048 0.3048)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 135.89 124.46)
+		(end 181.61 148.59)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 25670a0b-df39-4b29-ade0-71e74a987c90)
+	)
+	(text "To Power Management\nSystem"
+		(exclude_from_sim no)
+		(at 158.496 135.89 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "5d62d2d7-02f5-4565-bc5e-406da7175437")
+	)
+	(wire
+		(pts
+			(xy 41.91 137.16) (xy 41.91 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0256d291-b6ea-4d31-a909-34810466a64f")
+	)
+	(wire
+		(pts
+			(xy 54.61 148.59) (xy 54.61 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "028bfc27-7887-4cad-84df-557eb6dfc515")
+	)
+	(wire
+		(pts
+			(xy 167.64 107.95) (xy 167.64 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "035cb0cb-3cd2-4829-a901-9a235b6b899a")
+	)
+	(wire
+		(pts
+			(xy 62.23 92.71) (xy 62.23 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0550d48d-7ffe-4d19-8a9a-6c6a7d1cc81c")
+	)
+	(wire
+		(pts
+			(xy 177.8 87.63) (xy 203.2 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ab9c52-0fcd-441d-b914-71740870f33a")
+	)
+	(wire
+		(pts
+			(xy 177.8 85.09) (xy 203.2 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "074f712b-4927-4fa0-a11f-ca023b21623a")
+	)
+	(wire
+		(pts
+			(xy 177.8 95.25) (xy 203.2 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0895c846-6804-483a-8a04-671919193bd5")
+	)
+	(wire
+		(pts
+			(xy 44.45 71.12) (xy 44.45 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d9cc1b9-c97a-4759-8af4-c9a1c28e0f2a")
+	)
+	(wire
+		(pts
+			(xy 71.12 134.62) (xy 135.89 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df90262-4f60-4005-b704-3e2074b1b825")
+	)
+	(wire
+		(pts
+			(xy 105.41 102.87) (xy 105.41 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1088e9f8-388e-487f-ac22-ea60300c32d4")
+	)
+	(wire
+		(pts
+			(xy 36.83 71.12) (xy 39.37 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1133db44-905e-4cfd-a544-0a09e186676e")
+	)
+	(wire
+		(pts
+			(xy 226.06 104.14) (xy 226.06 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "113cfeab-eda0-425b-a32c-5a5bbf71b340")
+	)
+	(wire
+		(pts
+			(xy 181.61 135.89) (xy 228.6 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13704c4e-8e5a-4cdb-9e11-dab8261359bc")
+	)
+	(wire
+		(pts
+			(xy 62.23 74.93) (xy 139.7 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b0d6f1-b321-46e3-affd-8ca9dc70a335")
+	)
+	(wire
+		(pts
+			(xy 170.18 107.95) (xy 170.18 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aee865d-e0b6-46c7-8c89-7c845ec6a11a")
+	)
+	(wire
+		(pts
+			(xy 48.26 109.22) (xy 48.26 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dda4fb4-e9fd-4398-a2d4-c1ae1c751dcf")
+	)
+	(wire
+		(pts
+			(xy 52.07 137.16) (xy 52.07 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dde4272-898b-419e-ac30-55f37f3cd619")
+	)
+	(wire
+		(pts
+			(xy 54.61 137.16) (xy 54.61 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e757244-c148-4e2b-8ebd-eab4aad915b8")
+	)
+	(wire
+		(pts
+			(xy 139.7 87.63) (xy 148.59 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2149855c-cc63-42b9-be4e-384f7749ec66")
+	)
+	(wire
+		(pts
+			(xy 109.22 92.71) (xy 97.79 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27104f90-dad2-4bc4-b54b-8b7954e9eb20")
+	)
+	(wire
+		(pts
+			(xy 41.91 152.4) (xy 44.45 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28251d13-b539-4d36-b967-f85c5380131d")
+	)
+	(wire
+		(pts
+			(xy 170.18 39.37) (xy 170.18 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28671a63-7a7e-41c8-90d4-d8f38f34a52a")
+	)
+	(wire
+		(pts
+			(xy 139.7 90.17) (xy 148.59 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc640ae-6ed8-4faf-a088-45e8d1145586")
+	)
+	(wire
+		(pts
+			(xy 87.63 125.73) (xy 78.74 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33886a3b-9e64-433a-8c89-2a66e530035b")
+	)
+	(wire
+		(pts
+			(xy 162.56 39.37) (xy 162.56 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384dfcff-991d-4e41-9cf4-123706a77fa3")
+	)
+	(wire
+		(pts
+			(xy 109.22 95.25) (xy 100.33 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a2f240f-0988-4f9a-8c5a-8b9c09ce0674")
+	)
+	(wire
+		(pts
+			(xy 41.91 97.79) (xy 63.5 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac85050-38cf-4019-b20a-a027768fc24b")
+	)
+	(wire
+		(pts
+			(xy 181.61 130.81) (xy 223.52 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bf4686c-51b1-4cd6-90a5-3d1d4527bbaa")
+	)
+	(wire
+		(pts
+			(xy 162.56 107.95) (xy 162.56 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c69fd1a-feaa-447c-9878-dcc4a5f4ea1f")
+	)
+	(wire
+		(pts
+			(xy 165.1 39.37) (xy 165.1 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44d0f3cb-0285-4baa-8711-e4a17fef2b6d")
+	)
+	(wire
+		(pts
+			(xy 157.48 52.07) (xy 157.48 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45fcf8d6-89fe-4d5c-a79e-f635ff67d11d")
+	)
+	(wire
+		(pts
+			(xy 93.98 90.17) (xy 93.98 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4778eaa6-f02e-4507-be0a-a7e9e6bbfca5")
+	)
+	(wire
+		(pts
+			(xy 49.53 137.16) (xy 49.53 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48513af3-fb92-4350-b095-07717cffa1b8")
+	)
+	(wire
+		(pts
+			(xy 139.7 74.93) (xy 139.7 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48ef33b5-98d1-4cad-91b1-f59b7a9aed8f")
+	)
+	(wire
+		(pts
+			(xy 203.2 90.17) (xy 184.15 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a3acdb3-b501-4ce1-80d5-74bd7fd39e41")
+	)
+	(wire
+		(pts
+			(xy 194.31 91.44) (xy 194.31 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5098554e-7501-4812-8262-013202d59ae7")
+	)
+	(wire
+		(pts
+			(xy 49.53 148.59) (xy 54.61 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "516e8561-e084-460c-9dfb-524f50b93a22")
+	)
+	(wire
+		(pts
+			(xy 100.33 95.25) (xy 100.33 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5201e0fb-4e34-46f6-b53c-5180ff369a1b")
+	)
+	(wire
+		(pts
+			(xy 87.63 109.22) (xy 105.41 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5268004b-2950-43f1-97f8-0d7c1ca7dbd9")
+	)
+	(wire
+		(pts
+			(xy 50.8 71.12) (xy 44.45 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57ee6d3a-525e-4452-9a88-76fb20bab151")
+	)
+	(wire
+		(pts
+			(xy 71.12 121.92) (xy 71.12 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59221339-47b0-4d7c-a44d-5bbd95e879e6")
+	)
+	(wire
+		(pts
+			(xy 144.78 100.33) (xy 144.78 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b102f38-9984-40fd-a577-cce481dbac64")
+	)
+	(wire
+		(pts
+			(xy 87.63 96.52) (xy 93.98 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cc0bdfa-cc03-4bf4-af44-8d00cd167f67")
+	)
+	(wire
+		(pts
+			(xy 144.78 95.25) (xy 148.59 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dc81640-4816-4383-bcde-59fb866b5fee")
+	)
+	(wire
+		(pts
+			(xy 52.07 140.97) (xy 71.12 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f2e7595-c9f5-4c56-8f76-2240ff9b31be")
+	)
+	(wire
+		(pts
+			(xy 181.61 128.27) (xy 220.98 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "606d9f0a-7a0c-4a2d-a8c7-235602116069")
+	)
+	(wire
+		(pts
+			(xy 35.56 144.78) (xy 35.56 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6398cac7-02e5-4c48-a51c-0615ccc73bad")
+	)
+	(wire
+		(pts
+			(xy 165.1 52.07) (xy 157.48 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ac7811-e681-408e-84c6-019d7af2fbc5")
+	)
+	(wire
+		(pts
+			(xy 167.64 39.37) (xy 170.18 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "686718bf-34e3-44d0-a5cc-0c268e9089fe")
+	)
+	(wire
+		(pts
+			(xy 194.31 92.71) (xy 203.2 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e9d88dd-3f8c-4d6d-88d3-20cb2071c5d2")
+	)
+	(wire
+		(pts
+			(xy 143.51 97.79) (xy 143.51 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc348cd-5f3d-4e32-97b2-89aafb1bbc25")
+	)
+	(wire
+		(pts
+			(xy 181.61 133.35) (xy 226.06 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70169ea4-64c4-4e25-84a5-f108f8a2ef7f")
+	)
+	(wire
+		(pts
+			(xy 139.7 95.25) (xy 139.7 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "708acd32-38ab-4b51-9600-99fb4cb57294")
+	)
+	(wire
+		(pts
+			(xy 78.74 138.43) (xy 78.74 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71932564-d721-4eff-b956-0136a534f3db")
+	)
+	(wire
+		(pts
+			(xy 39.37 71.12) (xy 39.37 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72a6039c-0e4c-4cf4-9108-99dc813887af")
+	)
+	(wire
+		(pts
+			(xy 220.98 104.14) (xy 220.98 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "743b0bae-4c96-4721-b310-8d89c220b798")
+	)
+	(wire
+		(pts
+			(xy 160.02 107.95) (xy 160.02 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c26fd9-56c1-45fb-8d49-cecafe093706")
+	)
+	(wire
+		(pts
+			(xy 134.62 97.79) (xy 143.51 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "798a41d3-ecd7-4ec7-8c1b-4d474a4612da")
+	)
+	(wire
+		(pts
+			(xy 97.79 92.71) (xy 97.79 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b1bb3bd-9a4c-4501-98d4-c1feb8a2a3a6")
+	)
+	(wire
+		(pts
+			(xy 134.62 95.25) (xy 139.7 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83a641f6-546b-458f-8384-e8660ed9b15e")
+	)
+	(wire
+		(pts
+			(xy 44.45 137.16) (xy 44.45 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a38d6f9-f075-4aba-a26d-b726a6e5238f")
+	)
+	(wire
+		(pts
+			(xy 184.15 90.17) (xy 184.15 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8afc397c-34dd-4d81-b77e-23b3ba840d8f")
+	)
+	(wire
+		(pts
+			(xy 87.63 111.76) (xy 106.68 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8db5591a-2079-428c-a391-3e79d624c915")
+	)
+	(wire
+		(pts
+			(xy 87.63 99.06) (xy 97.79 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e7e729b-daf6-4dc8-b8c1-bc193ddd61b4")
+	)
+	(wire
+		(pts
+			(xy 109.22 90.17) (xy 93.98 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9059d761-65d4-45d7-acd3-d0dc57b4b5f0")
+	)
+	(wire
+		(pts
+			(xy 46.99 137.16) (xy 46.99 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92947b11-f765-4986-a708-8cf81d6fe433")
+	)
+	(wire
+		(pts
+			(xy 181.61 90.17) (xy 181.61 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "933c5616-e30f-470d-899f-3ee11cdab1e5")
+	)
+	(wire
+		(pts
+			(xy 223.52 104.14) (xy 223.52 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94b95e1b-6745-475f-9183-4c2f16a32ada")
+	)
+	(wire
+		(pts
+			(xy 87.63 106.68) (xy 104.14 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95a90181-05e4-40ee-a792-7aa274946958")
+	)
+	(wire
+		(pts
+			(xy 102.87 97.79) (xy 102.87 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96443144-72fc-46d1-aeb2-469483517f5b")
+	)
+	(wire
+		(pts
+			(xy 165.1 107.95) (xy 165.1 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e82f9f0-7c82-4efd-8ee4-9aeaee8d017a")
+	)
+	(wire
+		(pts
+			(xy 177.8 90.17) (xy 181.61 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3f75893-234c-4be3-ad9f-31d32d041a35")
+	)
+	(wire
+		(pts
+			(xy 109.22 100.33) (xy 104.14 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6503e12-3459-4dc3-8e9e-e0a5db0db840")
+	)
+	(wire
+		(pts
+			(xy 50.8 62.23) (xy 50.8 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c4d6d1-8a55-4786-b013-0a50201f6e66")
+	)
+	(wire
+		(pts
+			(xy 157.48 107.95) (xy 157.48 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac740c65-506d-4517-9b94-ee9f681fd941")
+	)
+	(wire
+		(pts
+			(xy 134.62 100.33) (xy 144.78 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b097d25b-f289-4c09-8c4f-aae662ec537c")
+	)
+	(wire
+		(pts
+			(xy 109.22 102.87) (xy 105.41 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0f1a2ad-0f9c-486e-bf7e-18a1ea0ebc32")
+	)
+	(wire
+		(pts
+			(xy 46.99 152.4) (xy 48.26 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b35b027a-e74d-4bd5-a6ea-1a99dd526a4e")
+	)
+	(wire
+		(pts
+			(xy 41.91 144.78) (xy 35.56 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b585bea1-2970-4448-95bf-b40115f46975")
+	)
+	(wire
+		(pts
+			(xy 110.49 97.79) (xy 102.87 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc10110e-039e-4fdb-bf73-8d0ee023dd0e")
+	)
+	(wire
+		(pts
+			(xy 78.74 121.92) (xy 78.74 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdac6c83-186f-4800-a397-1d1cddf5b230")
+	)
+	(wire
+		(pts
+			(xy 160.02 39.37) (xy 160.02 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be9665f6-eeaf-4cd4-9b00-a6a07a49d6d4")
+	)
+	(wire
+		(pts
+			(xy 177.8 92.71) (xy 184.15 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0c3ca39-a32a-45a6-a115-bf136fb48b7f")
+	)
+	(wire
+		(pts
+			(xy 177.8 82.55) (xy 203.2 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2cdfff5-a917-4b15-b318-662288eb7620")
+	)
+	(wire
+		(pts
+			(xy 106.68 105.41) (xy 106.68 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c32994a9-8238-4ea2-a8a3-1680d9a1a0d7")
+	)
+	(wire
+		(pts
+			(xy 143.51 92.71) (xy 148.59 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd43d600-f85a-40f0-b691-8ddc84987488")
+	)
+	(wire
+		(pts
+			(xy 41.91 93.98) (xy 41.91 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce5fc9bf-7d8d-4cc3-80e8-59d5e56866ce")
+	)
+	(wire
+		(pts
+			(xy 71.12 140.97) (xy 71.12 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd23b655-19ce-471c-b577-abaa384d8501")
+	)
+	(wire
+		(pts
+			(xy 54.61 138.43) (xy 78.74 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dedc671d-5383-46a6-b485-35125b5ecac0")
+	)
+	(wire
+		(pts
+			(xy 181.61 91.44) (xy 194.31 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0bcfbc8-6d14-4a23-80d4-782840e4fedf")
+	)
+	(wire
+		(pts
+			(xy 87.63 101.6) (xy 100.33 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e26bf3fb-0f20-4db4-87da-e4e6724e1b61")
+	)
+	(wire
+		(pts
+			(xy 104.14 100.33) (xy 104.14 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e76cf4c2-14ea-4ee1-a04e-2f6cb1d457c1")
+	)
+	(wire
+		(pts
+			(xy 228.6 104.14) (xy 228.6 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef8506e3-8018-4ffb-9c72-d4a6fedc8b47")
+	)
+	(wire
+		(pts
+			(xy 109.22 105.41) (xy 106.68 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1e64897-c97c-4637-aff6-a5ee3ba1313f")
+	)
+	(wire
+		(pts
+			(xy 36.83 62.23) (xy 36.83 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56c5830-0ffe-42f0-825f-d4354ac06510")
+	)
+	(wire
+		(pts
+			(xy 62.23 109.22) (xy 48.26 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f76914ae-24bd-40e9-87e9-2d8c0c2b28f6")
+	)
+	(wire
+		(pts
+			(xy 85.09 104.14) (xy 102.87 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb6b5da2-6b48-4ed6-911b-5b4b6773a974")
+	)
+	(symbol
+		(lib_id "Drone-Components:RF_Receiver")
+		(at 163.83 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04ac76a3-2b4a-46e4-899f-1abdf5838ea4")
+		(property "Reference" "RF-RX1"
+			(at 163.83 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 170.18 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "RX-4"
+			(uuid "9f85352d-7e45-4012-ba24-729d13179e00")
+		)
+		(pin "RF-1"
+			(uuid "46eb1d48-31e8-4f09-ae95-11ce911d92d9")
+		)
+		(pin "RF-2"
+			(uuid "caff80eb-6588-4720-b28f-a21c8a96803d")
+		)
+		(pin "RX-3"
+			(uuid "cbe72b7d-ab09-4003-bece-160620f77f90")
+		)
+		(instances
+			(project "Schematic- Round 2"
+				(path "/10992c10-6587-435c-91f9-d908c4d700ba"
+					(reference "RF-RX1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "d500_1")
+		(lib_id "Drone-Components:d500")
+		(at 78.74 153.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2562bf29-dab1-4400-80da-ff9f594a49bf")
+		(property "Reference" "d5h1"
+			(at 83.82 149.2249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 83.82 151.7649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "COMM-1"
+			(uuid "0570d44f-3f77-4cec-a573-fc45bc909988")
+		)
+		(instances
+			(project "Schematic- Round 2"
+				(path "/10992c10-6587-435c-91f9-d908c4d700ba"
+					(reference "d5h1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone-Components:d500")
+		(at 54.61 165.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29652d4e-8894-4bac-9b66-602651271ff5")
+		(property "Reference" "d5h3"
+			(at 59.69 160.6549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 59.69 163.1949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "COMM-1"
+			(uuid "801f782c-9718-4c35-a786-22ac8a17b448")
+		)
+		(instances
+			(project "Schematic- Round 2"
+				(path "/10992c10-6587-435c-91f9-d908c4d700ba"
+					(reference "d5h3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone-Components:USB_Hub_(IMX418)")
+		(at 41.91 81.28 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36dccc21-69ec-41d1-bfc2-a447a5ecf44b")
+		(property "Reference" "UHB-ARDC1"
+			(at 34.29 83.1849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 34.29 85.7249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "UOUT-2"
+			(uuid "904e0b8b-598f-44e7-8bde-024b3e31e81f")
+		)
+		(pin "UOUT-1"
+			(uuid "b6c36987-7478-4ed1-8ac8-8c2cf3c01e98")
+		)
+		(pin "P"
+			(uuid "2d92b676-c4ec-4655-a0bf-24868c114fa6")
+		)
+		(pin "UIN-1"
+			(uuid "13e163bc-3d40-4992-b72b-302bf63f5c49")
+		)
+		(instances
+			(project "Schematic- Round 2"
+				(path "/10992c10-6587-435c-91f9-d908c4d700ba"
+					(reference "UHB-ARDC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone-Components:Telemetry_Module")
+		(at 218.44 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49233a82-b02a-4d9c-8ab5-f07cb2ae91ce")
+		(property "Reference" "TELEM1"
+			(at 201.93 95.7772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 201.93 98.3172 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "POW-3"
+			(uuid "d7915016-2c23-40f6-97ef-ea2aea62c6fc")
+		)
+		(pin "POW-6"
+			(uuid "2cb66422-958c-4f9d-ac68-f92c01aae389")
+		)
+		(pin "POW-2"
+			(uuid "e0524f44-abcd-40be-85e1-5281fc41f8ed")
+		)
+		(pin "COMM-3"
+			(uuid "b49bdb39-3798-4b73-b014-8cc528ba189b")
+		)
+		(pin "COMM-1"
+			(uuid "07ea378c-8e26-4b39-b0a2-f65d49c333d7")
+		)
+		(pin "COMM-2"
+			(uuid "327f97ed-dcfc-48d0-8f41-fd6e39f37896")
+		)
+		(pin "COMM-5"
+			(uuid "142f702c-4a6a-40db-8c89-4dae220e1603")
+		)
+		(pin "COMM-5"
+			(uuid "e1733333-aaed-4c85-8e87-d85feafe5ce2")
+		)
+		(pin "POW-1"
+			(uuid "35fa8356-2f77-47e2-aa6a-56a1572584c3")
+		)
+		(pin "POW-4"
+			(uuid "e587cd8c-0723-48d9-852e-020aef96e7d6")
+		)
+		(instances
+			(project "Schematic- Round 2"
+				(path "/10992c10-6587-435c-91f9-d908c4d700ba"
+					(reference "TELEM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone-Components:Video_Unit")
+		(at 74.93 104.14 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5be03911-666b-4eb3-a7e3-fed8a0e1b6ec")
+		(property "Reference" "VTX_VPU1"
+			(at 74.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 74.93 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "VPU_1U"
+			(uuid "01beabc9-fdad-47fa-9110-a25d0373ddae")
+		)
+		(pin "VPU-2G"
+			(uuid "145119af-64b5-4835-9928-680796cd875a")
+		)
+		(pin "CAM-1"
+			(uuid "576f284e-b8dc-47f5-b181-4d265c0cdfe4")
+		)
+		(pin "VPU_2U"
+			(uuid "08203412-bba5-4dd8-88aa-f1058a0bc095")
+		)
+		(pin "VPU-21G"
+			(uuid "11295d11-014d-4ff0-9f15-5bdb172610bd")
+		)
+		(pin "VPU-UP"
+			(uuid "4f6c8281-eebd-49b4-b5b6-ddd99e0dcd73")
+		)
+		(pin "VPU-GND"
+			(uuid "701c7aa1-b62f-4936-b181-11871f7d5ed8")
+		)
+		(pin "VPU-24G"
+			(uuid "fe66b6aa-9cb4-465a-9846-cac090b4641b")
+		)
+		(pin "VPU-1G"
+			(uuid "8ea9f009-4aff-4ff5-b3e8-c326f227cb71")
+		)
+		(pin "VPU-19G"
+			(uuid "f9583a88-99d6-44e6-8313-4a3402e317eb")
+		)
+		(pin "VPU-32G"
+			(uuid "d03b0c93-b1de-4a80-a7cd-9078cfd62084")
+		)
+		(pin "VPU-23G"
+			(uuid "57d97362-608a-4e19-9265-165368d51c7a")
+		)
+		(instances
+			(project "Schematic- Round 2"
+				(path "/10992c10-6587-435c-91f9-d908c4d700ba"
+					(reference "VTX_VPU1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone-Components:ArduCam_IMX209")
+		(at 36.83 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62910ec6-9753-4bce-9a88-1a2e4ed67778")
+		(property "Reference" "ARDC2"
+			(at 44.45 52.7049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 44.45 55.2449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "COMM-1"
+			(uuid "b2275e83-6781-42fd-a3ed-5fbbf771d77f")
+		)
+		(instances
+			(project "Schematic- Round 2"
+				(path "/10992c10-6587-435c-91f9-d908c4d700ba"
+					(reference "ARDC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone-Components:USB_Hub_(d500)")
+		(at 48.26 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8108bc92-ed05-46bc-bbaf-fd1b90bd721d")
+		(property "Reference" "UHB-d5H1"
+			(at 36.83 123.8249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 36.83 126.3649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "UOUT-6"
+			(uuid "f55aa2a5-ec34-4a3f-a4c0-2d8e865aab41")
+		)
+		(pin "P"
+			(uuid "4d656583-d766-447c-a960-b1ebcf370b4b")
+		)
+		(pin "UIN-1"
+			(uuid "e378a9e9-df70-404d-8734-435e483a783c")
+		)
+		(pin "UOUT-2"
+			(uuid "50bc5d67-fb5c-4ab9-97a6-b934402d7d19")
+		)
+		(pin "UOUT-5"
+			(uuid "29a38f24-8c8e-4747-927e-ab75ec899851")
+		)
+		(pin "UOUT-4"
+			(uuid "02b9fd6e-00e9-429b-b2d1-a9d8ed9cffbe")
+		)
+		(pin "UOUT-3"
+			(uuid "ade7dbb6-41be-45e6-a7d4-d93fcf893f1c")
+		)
+		(pin "UOUT-1"
+			(uuid "be606c3e-98e0-4c1b-a655-0c93617d395c")
+		)
+		(instances
+			(project "Schematic- Round 2"
+				(path "/10992c10-6587-435c-91f9-d908c4d700ba"
+					(reference "UHB-d5H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone-Components:CAN_HAT")
+		(at 121.285 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "936197a3-42aa-42eb-bf84-dcb1aead1c9a")
+		(property "Reference" "CAN_HAT1"
+			(at 121.92 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 121.92 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.285 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.285 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.285 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "OUT-3"
+			(uuid "3d218ab3-47f0-4c14-964b-a135259a39bf")
+		)
+		(pin "OU-3"
+			(uuid "f0756e5e-137d-4fca-84da-282017012245")
+		)
+		(pin "OUT-1"
+			(uuid "a684211f-e53a-4a3d-a2bd-04f83bae0da5")
+		)
+		(pin "IN-7"
+			(uuid "ab30121d-071a-45f1-abdc-ec232af91ed1")
+		)
+		(pin "IN-6"
+			(uuid "870f5029-be99-4358-b66b-3c8334a0bc9c")
+		)
+		(pin "IN-5"
+			(uuid "1430ac05-60f7-40bd-aa57-f87a77b34e09")
+		)
+		(pin "IN-4"
+			(uuid "aac26ef7-e6c5-4d10-bd2d-ac331ba62818")
+		)
+		(pin "IN-3"
+			(uuid "32e107e0-28aa-4b04-9f27-b04d606a966b")
+		)
+		(pin "IN-2"
+			(uuid "927e3d4b-4fb4-4991-b868-13f163545e46")
+		)
+		(pin "IN-1"
+			(uuid "c04426fe-90ea-4f33-97ac-f2adb38696d0")
+		)
+		(instances
+			(project "Schematic- Round 2"
+				(path "/10992c10-6587-435c-91f9-d908c4d700ba"
+					(reference "CAN_HAT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone-Components:VTX")
+		(at 90.17 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0dfa5e6-5615-46f6-a971-bc28173c5901")
+		(property "Reference" "VTX1"
+			(at 95.885 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 95.885 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "OUT-4p"
+			(uuid "e7df6d5a-a9d9-44ab-ad4e-d447ac76b429")
+		)
+		(instances
+			(project "Schematic- Round 2"
+				(path "/10992c10-6587-435c-91f9-d908c4d700ba"
+					(reference "VTX1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone-Components:d500")
+		(at 48.26 163.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5284f88-53da-4fd9-810f-c341c260f445")
+		(property "Reference" "d5h4"
+			(at 53.34 159.3849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 53.34 161.9249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "COMM-1"
+			(uuid "801f782c-9718-4c35-a786-22ac8a17b449")
+		)
+		(instances
+			(project "Schematic- Round 2"
+				(path "/10992c10-6587-435c-91f9-d908c4d700ba"
+					(reference "d5h4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone-Components:ArduCam_IMX209")
+		(at 50.8 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9a6f6d7-b835-4f6c-a6e3-cd4949d52846")
+		(property "Reference" "ARDC1"
+			(at 58.42 52.7049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 58.42 55.2449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "COMM-1"
+			(uuid "b2275e83-6781-42fd-a3ed-5fbbf771d780")
+		)
+		(instances
+			(project "Schematic- Round 2"
+				(path "/10992c10-6587-435c-91f9-d908c4d700ba"
+					(reference "ARDC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "d500_1")
+		(lib_id "Drone-Components:d500")
+		(at 71.12 154.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f202d1df-8ce8-4684-8993-f11e263c5839")
+		(property "Reference" "d5h2"
+			(at 76.2 150.4949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 76.2 153.0349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "COMM-1"
+			(uuid "0570d44f-3f77-4cec-a573-fc45bc909989")
+		)
+		(instances
+			(project "Schematic- Round 2"
+				(path "/10992c10-6587-435c-91f9-d908c4d700ba"
+					(reference "d5h2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone-Components:d500")
+		(at 35.56 165.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2fa82d1-a34d-4dc8-bf38-d1c59bd7458b")
+		(property "Reference" "d5h6"
+			(at 40.64 160.6549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 40.64 163.1949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "COMM-1"
+			(uuid "801f782c-9718-4c35-a786-22ac8a17b44a")
+		)
+		(instances
+			(project "Schematic- Round 2"
+				(path "/10992c10-6587-435c-91f9-d908c4d700ba"
+					(reference "d5h6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone-Components:PixHawk_6c_Mini")
+		(at 163.83 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fafad06d-be44-49f0-ae4c-4b05b9518a3c")
+		(property "Reference" "DCTRL1"
+			(at 201.93 82.537 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 201.93 85.077 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T1-2"
+			(uuid "93dc6f2e-7192-4f67-ada9-1c733e18a650")
+		)
+		(pin "T2-1"
+			(uuid "36afc0fc-ef20-4d1a-852f-64454c967a13")
+		)
+		(pin "POW-1"
+			(uuid "ff4d7af8-1eda-483a-a221-6edfb746ef3c")
+		)
+		(pin "POW-3"
+			(uuid "1b2ac2c0-47d1-4db3-9628-d15aa60b1fc5")
+		)
+		(pin "T2-3"
+			(uuid "5c9e9dbd-6270-4bcd-8bc7-8f3139b1bac2")
+		)
+		(pin "POW-2"
+			(uuid "32e6a30e-730d-4171-9340-b0b1700c0b80")
+		)
+		(pin "T2-2"
+			(uuid "0d908075-d2b1-41e5-86ec-c1be979c3b6c")
+		)
+		(pin "T1-1"
+			(uuid "6a979b3e-f2fd-4fb5-ba3d-2777b0f3aace")
+		)
+		(pin "T1-4"
+			(uuid "287e6ad7-4220-45a0-a7b6-fc1fba26607c")
+		)
+		(pin "T1-7"
+			(uuid "df9f2192-66d2-4f69-a006-de8138600799")
+		)
+		(pin "T1-4"
+			(uuid "aa08e5d1-d284-428a-a48f-e89cd5030f6a")
+		)
+		(pin "T1-3"
+			(uuid "948a72b2-906d-4534-be6d-d08a1a874d00")
+		)
+		(pin "T2-4"
+			(uuid "87988469-75d3-4d44-85f7-1525a16509e0")
+		)
+		(pin "POW-4"
+			(uuid "1c974c36-1a16-49b4-a538-e311494a8693")
+		)
+		(pin "T2-5"
+			(uuid "8e886266-e3ad-4be6-b309-e6b44a734d00")
+		)
+		(pin "POW-5"
+			(uuid "d9891663-9996-4171-8eab-7a72bb422370")
+		)
+		(pin "T2-6"
+			(uuid "2e673f5e-5109-4f3e-ad91-26cb095d671e")
+		)
+		(pin "POW-6"
+			(uuid "b8e6f5e2-1332-47ac-ae1e-43b2837a676a")
+		)
+		(pin "C1-1"
+			(uuid "6036c1b9-411d-4675-b81c-b6fc35b3f333")
+		)
+		(pin "C1-2"
+			(uuid "7bf2b03d-32f2-4c1e-8b19-22cc9737d58d")
+		)
+		(pin "C1-3"
+			(uuid "f273df04-b697-4287-bf4c-41ac616d3363")
+		)
+		(pin "C1-4"
+			(uuid "9514a3a2-4f28-4b97-b477-c1fda626799f")
+		)
+		(instances
+			(project "Schematic- Round 2"
+				(path "/10992c10-6587-435c-91f9-d908c4d700ba"
+					(reference "DCTRL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone-Components:d500")
+		(at 41.91 163.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe58a482-b1ce-4175-8679-1a90e99ba840")
+		(property "Reference" "d5h5"
+			(at 46.99 159.3849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 46.99 161.9249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "COMM-1"
+			(uuid "801f782c-9718-4c35-a786-22ac8a17b44b")
+		)
+		(instances
+			(project "Schematic- Round 2"
+				(path "/10992c10-6587-435c-91f9-d908c4d700ba"
+					(reference "d5h5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
